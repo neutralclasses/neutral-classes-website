@@ -1,0 +1,38 @@
+body{
+    background-color:white;
+    color:black;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner */
+.banner img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 40px;
+    background:white;
+}
+
+.logo-section{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    width:50px;
+    margin-right:10px;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
